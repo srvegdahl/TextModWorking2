@@ -86,6 +86,10 @@ public class TextModActivity extends ActionBarActivity {
         editText.setText(text);
     }
 
+    public void clearButtonPressed(View v) {
+        editText.setText("");
+    }
+
     /**
      * @see android.app.Activity#onCreateOptionsMenu(android.view.Menu)
      */
